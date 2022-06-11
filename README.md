@@ -1,6 +1,6 @@
-### EX NO: 01
+### EX NO:01
 ### DATE: 04.04.2022
-# <p align="center"> RANDOM CLASSIFICATION</p>
+# <p align="center">RANDOM CLASSIFICATION<p/>
 ## AIM:
 To write a python program to perform random classification.
 
@@ -19,13 +19,19 @@ To write a python program to perform random classification.
 3. Each decision tree will generate an output.
 4. Final output is considered based on Majority Voting or Averaging for Classification and regression respectively.
 
+<br>
+<br> 
+<br>
+<br>
+
 ## PROGRAM:
 ```python
-/*
-Program to implement random classification.
-Developed by   : VIJAYARAGAVAN ARR
-Register Number : 212220230059
-*/
+
+#Program to implement random classification.
+#Developed by   : VIJAYARAGAVAN ARR
+#Register Number : 212220230059
+
+
 import matplotlib.pyplot as plt
 from sklearn import datasets
 x,y=datasets.make_blobs(n_samples=100,n_features=2,centers=2,cluster_std=1.05,random_state=2)
